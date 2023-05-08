@@ -44,7 +44,7 @@ video{
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 6em;
     text-align: justify;
-    color: white;
+    color: rgb(229, 229, 134);
     z-index: 1;
     mix-blend-mode: overlay;
 }
@@ -55,7 +55,7 @@ video{
     font-family: 'Jeju Gothic', sans-serif;
     font-size: 2em;
     text-align: justify;
-    color: white;
+    color: rgb(229, 229, 134);
     z-index: 3;
     mix-blend-mode: overlay;
 }
@@ -63,3 +63,7 @@ video{
 .li {
     line-height:50%
 }
+
+/* 링크에 언더바 사라지게 하는거*/
+a { text-decoration:none !important } 
+a:hover { text-decoration:none !important }
